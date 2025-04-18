@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+*.log
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Chaves
+*.pem
+
+# Dados sensíveis
+terraform.tfvars
